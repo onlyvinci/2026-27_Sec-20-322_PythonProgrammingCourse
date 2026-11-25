@@ -1,0 +1,6 @@
+a = bool(int(input("Enter first value (1 for True, 0 for False): ")))
+b = bool(int(input("Enter second value (1 for True, 0 for False): ")))
+print("a and b =", a and b)
+print("a or b =", a or b)
+print("not a =", not a)
+print("not b =", not b)
