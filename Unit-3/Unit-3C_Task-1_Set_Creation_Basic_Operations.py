@@ -1,0 +1,7 @@
+first = set(input("Enter first set elements: ").split())
+second = set(input("Enter second set elements: ").split())
+print("First set:", first)
+print("Second set:", second)
+print("Union:", first | second)
+print("Intersection:", first & second)
+print("Difference:", first - second)

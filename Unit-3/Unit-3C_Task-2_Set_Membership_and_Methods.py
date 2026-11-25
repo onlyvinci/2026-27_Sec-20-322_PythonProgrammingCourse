@@ -1,0 +1,8 @@
+values = set(input("Enter set elements: ").split())
+value = input("Enter a value to test: ")
+print("Present:", value in values)
+values.add(value)
+print("After add:", values)
+remove_value = input("Enter a value to remove: ")
+values.discard(remove_value)
+print("After discard:", values)
